@@ -122,3 +122,8 @@ a {
     border-left: 11%;
     color: #464646;
 }
+
+.img-starwars,.produto-nome, .valor {
+    display: flex;
+    flex-direction: row;
+}
