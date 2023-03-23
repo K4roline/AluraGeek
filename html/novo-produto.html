@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/novo-produto.css">
+    <script src="../js/script.js"></script>
     <title>Adicionar novo produto</title>
 </head>
 
@@ -24,7 +26,7 @@
 
         <section class="contato">
             <div class="contato">
-                <img src="Imagens/logo.png">
+                <img class="logo" src="Imagens/logo.png">
                 <a href="">Quem somos nós</a>
                 <a href="">Política de privacidade</a>
                 <a href="">Programa de fidelidade</a>
@@ -34,7 +36,7 @@
     
                 <input class="formcontato" type="text" id="nome" placeholder="Nome" required>
                 <textarea class="formcontato-textarea" id="mensagem" placeholder="  Escreva a sua mensagem" required></textarea>
-                <button class="btnMensagem">Enviar mensagem</button>
+                <button onclick="MeuAlerta()" class="btnMensagem">Enviar mensagem</button>
             </div>
         </section>
     
