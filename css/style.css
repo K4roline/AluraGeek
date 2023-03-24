@@ -89,7 +89,7 @@ a {
     font-size: 22px;
     line-height: 26px;
     position: absolute;
-    left: 27%;
+    left: 405px;
     top: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
@@ -119,11 +119,19 @@ a {
     width: 148px;
     height: 38px;
     font-size: 32px;
-    border-left: 11%;
+    margin-left: 11%;
+    margin-top: 4%;
+    margin-bottom: 1%;
     color: #464646;
 }
 
-.img-starwars,.produto-nome, .valor {
+/* .link {
+    text-align: right;
+} */
+
+.strooper, .darth, .yoda, .strooper2, .grogu, .dark {
     display: flex;
     flex-direction: row;
+    text-align: center;
 }
+
