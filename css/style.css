@@ -115,7 +115,7 @@ a {
     color: #FFFFFF;
 }
 
-.titulo {
+.titulo-sw {
     width: 148px;
     height: 38px;
     font-size: 32px;
@@ -125,13 +125,57 @@ a {
     color: #464646;
 }
 
-/* .link {
-    text-align: right;
-} */
+.titulo-consoles, .titulo-diversos {
+    text-align: left;
+    width: 148px;
+    height: 38px;
+    font-size: 32px;
+    margin-left: 11%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #464646;
+}
 
-.strooper, .darth, .yoda, .strooper2, .grogu, .dark {
+.link {
+    color: #2A7AE4;
+}
+
+.star-wars {
     display: flex;
     flex-direction: row;
-    text-align: center;
+    justify-content: center;
+    padding: 30px;
+ }
+
+.consoles, .diversos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: -350px;
+ }
+
+.strooper, .darth, .yoda, .strooper2, .grogu, .dark {
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    padding-top: 1px;
+}
+
+.joystick, .playstation, .nintendo, .switch, .xbox, .gameboy {
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    padding-top: 100px;
+}
+
+.camisa-atari, .camisa-snes, .sonic, .despertador, .vr, .pikachu {
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    padding-top: 100px;
+}
+
+.produto-nome, .valor, .link {
+    padding: 5px;
 }
 
