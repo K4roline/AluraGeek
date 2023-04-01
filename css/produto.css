@@ -14,3 +14,176 @@ body {
     line-height: 1;
     background-color: #FFFFFF;
 }
+
+a {
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    padding-left: 80px;
+}
+
+.busca {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 393px;
+    height: 40px;
+    background: #F5F5F5;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+.btnBusca {
+    margin-left: -30px;
+}
+
+h1 {
+    width: 148px;
+    height: 38px;
+    font-size: 32px;
+    margin-left: 11%;
+    text-align: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #464646;
+    margin-right: -310px;
+    font-family: 'Raleway';
+}
+
+.titulo-sw, .titulo-consoles, .titulo-diversos {
+    width: 148px;
+    height: 38px;
+    font-size: 32px;
+    margin-left: 11%;
+    text-align: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #464646;
+    margin-right: -310px;
+}
+
+.titulo-consoles, .titulo-diversos {
+    width: 148px;
+    height: 38px;
+    font-size: 32px;
+    margin-left: 11%;
+    text-align: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #464646;
+    margin-right: -310px;
+}
+
+.link {
+    color: #2A7AE4;
+}
+
+ .star-wars, .consoles, .diversos {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+.strooper, .darth, .yoda, .strooper2, .grogu, .dark {
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    padding-top: 1px;
+}
+
+.joystick, .playstation, .nintendo, .switch, .xbox, .gameboy {
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    padding-top: 100px;
+}
+
+.camisa-atari, .camisa-snes, .sonic, .despertador, .vr, .pikachu {
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    padding-top: 100px;
+}
+
+.produto-nome, .valor, .link {
+    padding: 5px;
+}
+
+.contato {
+    width: 100%;
+    height: 368px;
+    background: #EAF2FD;
+}
+
+.img-contato {
+    padding-top: 80px;
+    padding-left: 170px;
+}
+
+.sobre {
+    padding-left: 70px;
+    margin-top: -80px;
+}
+
+.contato ul {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    padding-left: 470px;
+    color: #464646;
+}
+
+.fale-conosco {
+    padding-left: 850px;
+    margin-top: -260px;
+}
+
+.formulario {
+    padding-left: 850px;
+    padding-top: 10px;
+}
+
+.formcontato {
+    width: 560px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding-bottom: 25px;
+}
+
+.formcontato-textarea {
+    width: 560px;
+    height: 82px;
+    resize: none;
+    border-radius: 4px;
+    padding-bottom: 25px;
+    padding-top: 5px;
+    margin-top: 15px;
+}
+
+.btnMensagem {
+    align-items: center;
+    font-size: 16px;
+    width: 160px;
+    height: 51px;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.footer {
+    width: 1440px;
+    height: 102px;
+    text-align: center;
+    padding-top: 50px;
+}
+
